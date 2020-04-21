@@ -1,0 +1,29 @@
+
+{
+    "contacts" : {
+      "1" : {
+        "id" : "1",
+        "favorite" : false,
+        "first_name" : "Tirupati",
+        "last_name" : "Balan",
+        "profile_pic" : "https://i.picsum.photos/id/436/400/400.jpg",
+        "url" : ""
+      },
+      "2" : {
+        "id" : "2",
+        "favorite" : false,
+        "first_name" : "Shahrukh",
+        "last_name" : "Khan",
+        "profile_pic" : "https://i.picsum.photos/id/436/400/400.jpg",
+        "url" : ""
+      },
+      "3" : {
+        "id" : "3",
+        "favorite" : false,
+        "first_name" : "Salman",
+        "last_name" : "Khan",
+        "profile_pic" : "https://i.picsum.photos/id/436/400/400.jpg",
+        "url" : ""
+      }
+    }
+  }
