@@ -7,6 +7,7 @@ const typeDefs = require("./schema/schema");
 // Provide resolver functions for your schema fields
 const resolvers = require("./resolvers/resolvers");
 
+// Create GraphQL express server
 const { ApolloServer } = require("apollo-server-express");
 
 // Setup express cloud function
