@@ -1,6 +1,8 @@
-Hello, I Hope all good.
+# Firebase Cloud Functions with GraphQL Query
 
-Recently at Skuad I have worked on one of the iOS applications where we had used GraphQL to query for network data from firebase using GraphQL client instead of RESTful APIs.
+### Description
+This example app demonstrate how to use firebase cloud functions with graphql query using apollo server express to perform CRUD operation.
+
 
 ## What is GraphQL?
 >  GraphQL, on the other hand, is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.
@@ -221,7 +223,5 @@ $ firebase deploy --only functions
 
 That's it. We are done and we successfully deployed our first Firebase Cloud Functions with GraphQL using Apollo Server.
 
-> NOTE: Cloud Functions only handle one request per instance which may be not good for scaling and to handle a large number of requests, so the above approach not recommended for the production environment.
+NOTE: Will update this repo to perform more queries like update and delete via a mutation to the GraphQL API.
 
-Reference:
-https://www.apollographql.com/docs/tutorial/schema/
