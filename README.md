@@ -13,9 +13,7 @@ This example app demonstrate how to use firebase cloud functions with graphql qu
 ## What is Apollo Client?
 >  Platform which gives the implementation of GraphQL which transfers data between the server (i.e In the tutorial it is Firebase Cloud Functions) and client (iOS App). 
 
-The entire project based on Apollo iOS Client which writes GraphQL query and apollo client takes care of requesting & caching of network data which operates over a single endpoint using HTTP.
-
-In this article,  we will discuss how to set up the Firebase Cloud Function along with the apollo server via apollo-server-express which pairs well with Firebase cloud functions.
+In this article, we will discuss how to set up the Firebase Cloud Function along with the apollo server via apollo-server-express which pairs well with Firebase cloud functions.
 
 >  NOTE: We assume you know basic of [firebase CLI](https://firebase.google.com/docs/cli) and setting up Node projects. 
 
