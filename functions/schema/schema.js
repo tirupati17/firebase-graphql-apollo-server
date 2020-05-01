@@ -13,7 +13,14 @@ const typeDefs = gql`
     contacts: [Contact]
   }
   type Mutation {
-    addContact: String
+    addContact(
+      id:String!
+      first_name:String!
+      last_name:String! 
+      profile_pic:String
+      url:String
+      favorite:Boolean
+    ): String
   }
 `;
 

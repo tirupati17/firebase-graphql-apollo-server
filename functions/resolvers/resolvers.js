@@ -12,13 +12,22 @@ const resolvers = {
           .then(val => Object.keys(val).map(key => val[key]))
     },
     Mutation: {
-      addContact: () =>
+      addContact: (id,
+        first_name,
+        last_name,
+        profile_pic,
+        url,
+        favorite) =>
         admin
         .database()
         .ref("contacts")
         .push({
-          first_name: "Tiru",
-          last_name: "Balan"
+          id: id,
+          first_name: first_name,
+          last_name: last_name,
+          profile_pic: profile_pic,
+          url: url,
+          favorite: favorite
         }).key        
     }
   };
