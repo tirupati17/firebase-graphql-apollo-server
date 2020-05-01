@@ -12,6 +12,9 @@ const typeDefs = gql`
   type Query {
     contacts: [Contact]
   }
+  type Mutation {
+    addContact: String
+  }
 `;
 
 module.exports = typeDefs;
